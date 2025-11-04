@@ -8,11 +8,8 @@
 #SBATCH --ntasks-per-node=4
 
 module purge
-module load MPICH/3.2-GCC-7.2.0-2.29 
+#module load MPICH
+#module load mpi4py/1.3
+module load contrib/dls-ap/intel/mpi/latest
 
-#mpirun -np 4 singularity exec /home/vol04/scarf1084/images/mpi4py-3.1.4.img /opt/mpitest
-
-mpirun -np 8 singularity exec --bind /home/vol04/scarf1084/mpi-singularity:/test /home/vol04/scarf1084/images/mpi4py-mpich-refl1d.sif python3 /test/scripts/align_magnetic_test.py
-
-
-
+mpirun -np 8 singularity exec --bind /home/vol07/scarf1137/jounaidr/ada:/test /home/vol07/scarf1137/jounaidr/ada/mpi4py-mpich-refl1d.sif python3.11 /test/align_magnetic_test.py
