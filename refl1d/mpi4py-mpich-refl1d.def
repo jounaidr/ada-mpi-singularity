@@ -1,25 +1,40 @@
 Bootstrap: docker
-From: ubuntu:20.04
+From: ubuntu:24.04
 
 %files
     mpitest.c /opt
 
 %environment
-    export MPICH_DIR=/opt/mpich-3.2
+    export MPICH_DIR=/opt/mpich-4.3.2
     export SINGULARITY_MPICH_DIR=$MPICH_DIR
     export SINGULARITYENV_APPEND_PATH=$MPICH_DIR/bin
     export SINGULAIRTYENV_APPEND_LD_LIBRARY_PATH=$MPICH_DIR/lib
-    export TZ=Europe/UK
+    export DEBIAN_FRONTEND=noninteractive
+    export TZ=Europe
 
 %post
-    ln snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
     echo "Installing required packages..."
     apt-get update && apt-get install -y wget git bash gcc gfortran g++ make
 
     # Information about the version of MPICH to use
-    export MPICH_VERSION=3.2
+    export MPICH_VERSION=4.3.2
     export MPICH_URL="http://www.mpich.org/static/downloads/$MPICH_VERSION/mpich-$MPICH_VERSION.tar.gz"
     export MPICH_DIR=/opt/mpich
+
+    #install python3.11 & mpi4py
+    apt install -y software-properties-common
+    add-apt-repository ppa:deadsnakes/ppa
+    apt update
+    apt install -y python3.11
+    apt install -y python3.11-distutils
+    apt install -y python3-pip
+    #libmpich-dev required for mpi4py
+    apt install -y libmpich-dev
+
+    #python3.11 -m pip install https://github.com/mpi4py/mpi4py/tarball/master
+    python3.11 -m pip install mpi4py
+
 
     echo "Installing MPICH..."
     mkdir -p /tmp/mpich
@@ -36,12 +51,7 @@ From: ubuntu:20.04
     echo "Compiling the MPI application..."
     cd /opt && mpicc -o mpitest mpitest.c
 
-    #install python3 & mpi4py
-    apt install -y python3-pip
-    python3 -m pip install https://github.com/mpi4py/mpi4py/tarball/master
 
-    
     #install refl1d
-    pip3 install numpy==1.21.5
-    pip3 install refl1d
-    
+    python3.11 -m pip install numpy
+    python3.11 -m pip install refl1d
