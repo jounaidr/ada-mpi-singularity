@@ -1,0 +1,378 @@
+cpu-bind=MASK - cn1084, task  0  0 [1163445]: mask 0xc0000000c set
+dT = 0.0025
+dT = 0.0025
+# burn: 1000 # steps: 84, # draws: 10080
+step 1 cost 2017.124(23)
+                         background Ni58 |......... 9.5606e-05 in [1e-09, 0.001]
+                          intensity Ni58 .|........    1.22396 in [0.1, 10]
+                  sample_broadening Ni58 ......|...  0.0192012 in [-0.0025, 0.03]
+                            Si interface |.........    3.76457 in [0, 50]
+                        Ni[58] interface .......|..    38.2681 in [0, 50]
+           Ni Layer Sample 1 deadM above .|........    12.6847 in [0, 100]
+           Ni Layer Sample 1 deadM below .........|     96.029 in [0, 100]
+      Ni Layer Sample 1 interfaceM above ....|.....    23.3861 in [0, 50]
+      Ni Layer Sample 1 interfaceM below .......|..    36.0683 in [0, 50]
+                  Ni Layer Sample 1 rhoM .|........   0.823615 in [0, 5]
+                          Ni[58] density ..|.......    5.46892 in [4.3, 8.8]
+                        Ni[58] thickness ........|.    1346.27 in [0, 1500]
+step 2 cost 1795.211(23)
+step 6 cost 792.204(23)
+step 10 cost 771.163(23)
+step 14 cost 630.509(23)
+step 18 cost 630.509(23)
+step 22 cost 577.401(23)
+step 26 cost 384.753(23)
+step 30 cost 384.753(23)
+step 34 cost 384.753(23)
+step 38 cost 384.753(23)
+step 42 cost 384.753(23)
+step 46 cost 384.753(23)
+step 50 cost 384.753(23)
+step 54 cost 375.834(23)
+step 58 cost 314.709(23)
+step 62 cost 314.709(23)
+step 66 cost 314.709(23)
+step 70 cost 314.709(23)
+step 74 cost 291.066(23)
+step 78 cost 177.202(23)
+step 82 cost 177.202(23)
+step 86 cost 129.744(23)
+step 90 cost 129.744(23)
+                         background Ni58 |......... 1.41488e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.786927 in [0.1, 10]
+                  sample_broadening Ni58 ..|....... 0.00598415 in [-0.0025, 0.03]
+                            Si interface .|........    8.45633 in [0, 50]
+                        Ni[58] interface .......|..    36.9759 in [0, 50]
+           Ni Layer Sample 1 deadM above ......|...    69.2542 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........    4.19494 in [0, 100]
+      Ni Layer Sample 1 interfaceM above ...|......    18.0873 in [0, 50]
+      Ni Layer Sample 1 interfaceM below .|........    6.39931 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.37418 in [0, 5]
+                          Ni[58] density ........|.    8.10735 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    955.529 in [0, 1500]
+step 94 cost 129.744(23)
+step 98 cost 129.744(23)
+step 102 cost 129.744(23)
+step 106 cost 129.744(23)
+step 110 cost 129.744(23)
+step 114 cost 129.744(23)
+step 118 cost 129.744(23)
+step 122 cost 129.744(23)
+step 126 cost 129.744(23)
+step 130 cost 129.744(23)
+step 134 cost 129.744(23)
+step 138 cost 129.744(23)
+step 142 cost 129.744(23)
+step 146 cost 129.744(23)
+step 150 cost 129.744(23)
+step 154 cost 129.744(23)
+step 158 cost 129.744(23)
+step 162 cost 129.744(23)
+step 166 cost 129.744(23)
+step 170 cost 72.918(23)
+step 171 trimmed 8 outliers from 120 chains
+step 174 cost 72.918(23)
+step 178 cost 72.918(23)
+step 182 cost 72.918(23)
+step 186 cost 72.918(23)
+step 190 cost 72.918(23)
+step 194 cost 72.918(23)
+step 198 cost 72.918(23)
+step 202 cost 71.720(23)
+step 206 cost 71.720(23)
+                         background Ni58 |......... 8.32553e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.733778 in [0.1, 10]
+                  sample_broadening Ni58 ...|...... 0.00761768 in [-0.0025, 0.03]
+                            Si interface .|........    7.26264 in [0, 50]
+                        Ni[58] interface ......|...    32.4554 in [0, 50]
+           Ni Layer Sample 1 deadM above .....|....    54.8853 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........    9.40941 in [0, 100]
+      Ni Layer Sample 1 interfaceM above .|........    9.55456 in [0, 50]
+      Ni Layer Sample 1 interfaceM below ...|......    15.0168 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.33333 in [0, 5]
+                          Ni[58] density .........|    8.36768 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    996.396 in [0, 1500]
+step 210 cost 47.916(23)
+step 214 cost 47.916(23)
+step 218 cost 47.916(23)
+step 222 cost 47.916(23)
+step 226 cost 47.916(23)
+step 230 cost 47.916(23)
+step 234 cost 47.916(23)
+step 238 cost 47.916(23)
+step 242 cost 31.800(23)
+step 246 cost 31.800(23)
+step 250 cost 31.800(23)
+step 254 cost 31.800(23)
+step 258 cost 31.800(23)
+step 262 cost 31.800(23)
+step 266 cost 31.800(23)
+step 270 cost 31.800(23)
+step 275 cost 31.800(23)
+step 280 cost 31.800(23)
+step 285 cost 31.800(23)
+step 290 cost 31.800(23)
+step 295 cost 31.800(23)
+step 300 cost 31.800(23)
+step 305 cost 31.800(23)
+step 310 cost 31.800(23)
+step 315 cost 20.838(23)
+step 320 cost 20.838(23)
+step 324 cost 20.838(23)
+                         background Ni58 |......... 5.36075e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.771984 in [0.1, 10]
+                  sample_broadening Ni58 ..|....... 0.00650478 in [-0.0025, 0.03]
+                            Si interface .|........    9.53085 in [0, 50]
+                        Ni[58] interface .....|....    28.3368 in [0, 50]
+           Ni Layer Sample 1 deadM above ...|......    39.4261 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........    9.81815 in [0, 100]
+      Ni Layer Sample 1 interfaceM above ...|......     19.892 in [0, 50]
+      Ni Layer Sample 1 interfaceM below |.........    1.95882 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.26431 in [0, 5]
+                          Ni[58] density .........|    8.37728 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    986.718 in [0, 1500]
+step 329 cost 20.838(23)
+step 334 cost 20.838(23)
+step 339 cost 20.838(23)
+step 343 cost 20.838(23)
+step 348 cost 20.838(23)
+step 351 trimmed 10 outliers from 120 chains
+step 352 cost 20.838(23)
+step 357 cost 20.838(23)
+step 361 cost 20.503(23)
+step 366 cost 20.503(23)
+step 371 cost 20.503(23)
+step 376 cost 20.477(23)
+step 381 cost 20.477(23)
+step 386 cost 19.253(23)
+step 391 cost 19.253(23)
+step 396 cost 17.611(23)
+step 401 cost 16.969(23)
+step 406 cost 16.969(23)
+step 411 cost 16.969(23)
+step 416 cost 16.969(23)
+step 421 cost 13.414(23)
+step 426 cost 13.414(23)
+step 431 cost 13.414(23)
+step 435 cost 13.414(23)
+step 440 cost 13.414(23)
+step 445 cost 13.414(23)
+step 449 cost 13.414(23)
+                         background Ni58 |......... 3.92389e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.771459 in [0.1, 10]
+                  sample_broadening Ni58 ..|....... 0.00569412 in [-0.0025, 0.03]
+                            Si interface .|........     7.5918 in [0, 50]
+                        Ni[58] interface .....|....    29.0506 in [0, 50]
+           Ni Layer Sample 1 deadM above .|........     14.835 in [0, 100]
+           Ni Layer Sample 1 deadM below .|........    15.1831 in [0, 100]
+      Ni Layer Sample 1 interfaceM above ...|......    17.5366 in [0, 50]
+      Ni Layer Sample 1 interfaceM below ...|......    16.2792 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.34348 in [0, 5]
+                          Ni[58] density .........|    8.38673 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    980.731 in [0, 1500]
+step 454 cost 13.414(23)
+step 459 cost 11.943(23)
+step 464 cost 11.943(23)
+step 469 cost 10.383(23)
+step 474 cost 8.934(23)
+step 479 cost 8.934(23)
+step 484 cost 8.934(23)
+step 489 cost 8.934(23)
+step 493 cost 6.037(23)
+step 498 cost 6.037(23)
+step 503 cost 6.037(23)
+step 508 cost 6.037(23)
+step 513 cost 6.037(23)
+step 518 cost 6.037(23)
+step 523 cost 6.037(23)
+step 528 cost 6.037(23)
+step 531 trimmed 6 outliers from 120 chains
+step 533 cost 6.037(23)
+step 538 cost 6.037(23)
+step 543 cost 6.037(23)
+step 548 cost 6.037(23)
+step 553 cost 5.926(23)
+step 558 cost 5.926(23)
+step 563 cost 5.617(23)
+step 568 cost 5.617(23)
+step 573 cost 5.146(23)
+                         background Ni58 |......... 3.05339e-07 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.779019 in [0.1, 10]
+                  sample_broadening Ni58 ..|....... 0.00639407 in [-0.0025, 0.03]
+                            Si interface .|........    7.20188 in [0, 50]
+                        Ni[58] interface ......|...     30.139 in [0, 50]
+           Ni Layer Sample 1 deadM above .|........    19.1628 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........    5.42499 in [0, 100]
+      Ni Layer Sample 1 interfaceM above ......|...    34.1733 in [0, 50]
+      Ni Layer Sample 1 interfaceM below |.........    3.61833 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.35537 in [0, 5]
+                          Ni[58] density .........|    8.37832 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    983.431 in [0, 1500]
+step 578 cost 5.146(23)
+step 583 cost 5.146(23)
+step 588 cost 5.146(23)
+step 593 cost 5.146(23)
+step 598 cost 4.671(23)
+step 603 cost 4.671(23)
+step 608 cost 4.671(23)
+step 613 cost 4.671(23)
+step 618 cost 4.671(23)
+step 623 cost 4.671(23)
+step 628 cost 4.671(23)
+step 633 cost 4.671(23)
+step 638 cost 4.671(23)
+step 643 cost 4.568(23)
+step 648 cost 4.568(23)
+step 653 cost 4.568(23)
+step 658 cost 4.511(23)
+step 663 cost 4.510(23)
+step 668 cost 4.495(23)
+step 673 cost 4.495(23)
+step 678 cost 4.495(23)
+step 683 cost 4.495(23)
+step 688 cost 4.495(23)
+step 693 cost 4.495(23)
+step 698 cost 4.495(23)
+                         background Ni58 |......... 3.74013e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.771173 in [0.1, 10]
+                  sample_broadening Ni58 ..|....... 0.00636064 in [-0.0025, 0.03]
+                            Si interface .|........    7.44627 in [0, 50]
+                        Ni[58] interface ......|...    30.3734 in [0, 50]
+           Ni Layer Sample 1 deadM above .|........    19.5934 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........    4.78893 in [0, 100]
+      Ni Layer Sample 1 interfaceM above ......|...    30.9242 in [0, 50]
+      Ni Layer Sample 1 interfaceM below |.........    1.99145 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.34399 in [0, 5]
+                          Ni[58] density .........|    8.38183 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    981.474 in [0, 1500]
+step 703 cost 4.472(23)
+step 708 cost 4.472(23)
+step 711 trimmed 13 outliers from 120 chains
+step 713 cost 4.396(23)
+step 718 cost 4.244(23)
+step 723 cost 4.244(23)
+step 727 cost 4.244(23)
+step 732 cost 4.224(23)
+step 736 cost 4.224(23)
+step 741 cost 4.224(23)
+step 746 cost 4.094(23)
+step 751 cost 4.094(23)
+step 756 cost 4.094(23)
+step 761 cost 4.094(23)
+step 766 cost 4.079(23)
+step 771 cost 4.079(23)
+step 776 cost 4.079(23)
+step 781 cost 4.068(23)
+step 786 cost 4.068(23)
+step 791 cost 4.068(23)
+step 796 cost 4.068(23)
+step 801 cost 4.039(23)
+step 806 cost 4.037(23)
+step 811 cost 4.037(23)
+step 816 cost 4.016(23)
+step 820 cost 4.016(23)
+                         background Ni58 |......... 2.61742e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.772217 in [0.1, 10]
+                  sample_broadening Ni58 ..|....... 0.00646701 in [-0.0025, 0.03]
+                            Si interface .|........    7.47282 in [0, 50]
+                        Ni[58] interface ......|...    30.0022 in [0, 50]
+           Ni Layer Sample 1 deadM above .|........     16.174 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........     4.3943 in [0, 100]
+      Ni Layer Sample 1 interfaceM above .....|....    25.9499 in [0, 50]
+      Ni Layer Sample 1 interfaceM below |.........    2.77227 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.33905 in [0, 5]
+                          Ni[58] density .........|     8.3863 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    982.687 in [0, 1500]
+step 825 cost 4.016(23)
+step 830 cost 3.990(23)
+step 834 cost 3.990(23)
+step 839 cost 3.982(23)
+step 843 cost 3.960(23)
+step 848 cost 3.960(23)
+step 853 cost 3.960(23)
+step 858 cost 3.960(23)
+step 863 cost 3.960(23)
+step 868 cost 3.959(23)
+step 873 cost 3.959(23)
+step 878 cost 3.959(23)
+step 883 cost 3.951(23)
+step 888 cost 3.951(23)
+step 891 trimmed 4 outliers from 120 chains
+step 893 cost 3.951(23)
+step 898 cost 3.951(23)
+step 903 cost 3.948(23)
+step 908 cost 3.948(23)
+step 913 cost 3.948(23)
+step 918 cost 3.948(23)
+step 923 cost 3.948(23)
+step 928 cost 3.948(23)
+step 933 cost 3.947(23)
+step 938 cost 3.947(23)
+step 943 cost 3.947(23)
+step 948 cost 3.947(23)
+                         background Ni58 |......... 2.31593e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.773118 in [0.1, 10]
+                  sample_broadening Ni58 ..|.......  0.0063477 in [-0.0025, 0.03]
+                            Si interface .|........    7.33223 in [0, 50]
+                        Ni[58] interface ......|...    30.2748 in [0, 50]
+           Ni Layer Sample 1 deadM above .|........    17.3044 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........    4.99099 in [0, 100]
+      Ni Layer Sample 1 interfaceM above .....|....    26.2035 in [0, 50]
+      Ni Layer Sample 1 interfaceM below |.........     3.0473 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.33995 in [0, 5]
+                          Ni[58] density .........|    8.38951 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    982.598 in [0, 1500]
+step 953 cost 3.947(23)
+step 958 cost 3.947(23)
+step 963 cost 3.946(23)
+step 968 cost 3.943(23)
+step 972 cost 3.942(23)
+step 977 cost 3.942(23)
+step 982 cost 3.942(23)
+step 987 cost 3.942(23)
+step 992 cost 3.942(23)
+step 997 cost 3.942(23)
+step 1002 cost 3.941(23)
+step 1007 cost 3.941(23)
+step 1012 cost 3.941(23)
+step 1017 cost 3.941(23)
+step 1022 cost 3.941(23)
+step 1027 cost 3.941(23)
+step 1032 cost 3.941(23)
+step 1037 cost 3.940(23)
+step 1042 cost 3.940(23)
+step 1047 cost 3.940(23)
+step 1052 cost 3.940(23)
+step 1057 cost 3.940(23)
+step 1062 cost 3.940(23)
+step 1067 cost 3.940(23)
+step 1072 cost 3.940(23)
+                         background Ni58 |......... 2.00868e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.772382 in [0.1, 10]
+                  sample_broadening Ni58 ..|....... 0.00636315 in [-0.0025, 0.03]
+                            Si interface .|........    7.28501 in [0, 50]
+                        Ni[58] interface ......|...    30.2692 in [0, 50]
+           Ni Layer Sample 1 deadM above .|........    15.9135 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........    5.88083 in [0, 100]
+      Ni Layer Sample 1 interfaceM above .....|....    26.5156 in [0, 50]
+      Ni Layer Sample 1 interfaceM below |.........    1.42575 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.33937 in [0, 5]
+                          Ni[58] density .........|    8.39066 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    982.732 in [0, 1500]
+step 1077 cost 3.940(23)
+step 1082 cost 3.940(23)
+step 1087 cost 3.940(23)
+step 1091 cost 3.940(23) [final]
+                         background Ni58 |......... 2.00868e-06 in [1e-09, 0.001]
+                          intensity Ni58 |.........   0.772382 in [0.1, 10]
+                  sample_broadening Ni58 ..|....... 0.00636315 in [-0.0025, 0.03]
+                            Si interface .|........    7.28501 in [0, 50]
+                        Ni[58] interface ......|...    30.2692 in [0, 50]
+           Ni Layer Sample 1 deadM above .|........    15.9135 in [0, 100]
+           Ni Layer Sample 1 deadM below |.........    5.88083 in [0, 100]
+      Ni Layer Sample 1 interfaceM above .....|....    26.5156 in [0, 50]
+      Ni Layer Sample 1 interfaceM below |.........    1.42575 in [0, 50]
+                  Ni Layer Sample 1 rhoM ..|.......    1.33937 in [0, 5]
+                          Ni[58] density .........|    8.39066 in [4.3, 8.8]
+                        Ni[58] thickness ......|...    982.732 in [0, 1500]
+time 4.6 minutes
