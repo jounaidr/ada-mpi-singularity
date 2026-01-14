@@ -1,0 +1,15 @@
+{
+    "job": {
+    "name": "REST-refl1d-test",
+    "ntasks": 4,
+    "nodes": 1,
+    "current_working_directory": "/home/ubuntu/slurm-test",
+    "standard_input": "/dev/null",
+    "standard_output": "/home/ubuntu/slurm-test/refl1dTest-%j.out",
+    "standard_error": "/home/ubuntu/slurm-test/refl1dTest_error-%j.out",
+    "environment": {
+        "PATH": "/bin:/usr/bin/:/usr/local/bin/",
+        "LD_LIBRARY_PATH": "/lib/:/lib64/:/usr/local/lib"}
+    },
+    "script": "#!/bin/bash\nsrun singularity exec --bind /home/ubuntu/slurm-test:/test /home/ubuntu/slurm-test/mpi4py-mpich-refl1d.sif refl1d /test/Ni58_basic_model.py --fit=dream --export=test --burn=1000 --samples=10000 --init=lhs --mpi --session=/test/test.h5 --batch"
+}
